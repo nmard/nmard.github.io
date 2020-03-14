@@ -1,0 +1,368 @@
+/*============================
+=   05. About Me Section         =
+============================*/
+/*=====  About Me / Layout  ======*/
+
+/*=====  About Me / elements  ======*/
+
+.section-block{
+	 margin-bottom: 4.284rem;
+}
+
+/*INFO BLOCK*/
+.info-block{
+	 // margin-bottom: 4.284rem;
+	 
+}
+.person-pic {
+	color: #fff;
+	position: relative;
+	display: block;  
+	overflow: hidden; 
+	max-width: 310px;
+	margin: 0 auto 1.428rem;	
+	text-align: center;
+	
+	* {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	img {
+		opacity: 1;	
+	  	min-width: 250px;
+	  	min-height: 386px;
+	  	transition: opacity 0.35s;
+	}
+
+	&__cap {
+		position: absolute;
+	  	top: 0;
+	  	left: 0;
+	  	width: 100%;
+	  	height: 100%;
+	  	text-align: left;
+	}
+
+	&__cap > div {
+		float: left;
+	  	height: 100%;
+	  	overflow: hidden;
+	  	width: 50%;
+	  	position: relative;
+	}
+
+	.part1,.part2{
+		display: inline-block;
+		margin: 0;
+		max-width: 50%;
+		padding: 20px;
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		left: 0;
+		-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+		transition: opacity 0.45s,-webkit-transform 0.45s,-moz-transform 0.45s,-o-transform 0.45s,transform 0.45s;
+	}
+
+	.part1{
+		text-align: right;
+		transform: translate3d(50%, 0%, 0);
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;		
+	 	@include background-opacity($black, 0.5);
+	}
+
+	.part2{
+		display: block;
+		bottom: 0;
+		@include background-opacity($base__color1, 0.85);	
+		transform: translate3d(50%, 0%, 0);
+		transition-delay: 0s;
+		p {		 
+			text-align: left;
+		  	font-weight: 300;
+		  	top: 0%;
+			color: #fff;		 
+		}
+
+	}
+
+
+	&:hover img {
+		opacity: 0.7;
+	}
+
+	&:hover .person-pic__cap .part1	{
+		transform: translate3d(0%, 0%, 0);
+	  	-webkit-transition-delay: 0.3s;
+	  	transition-delay: 0.3s;
+	}
+
+	&:hover .person-pic__cap .part2{
+		transform: translate3d(100%, 0%, 0);
+	  	-webkit-transition-delay: 0.3s;
+	  	transition-delay: 0.3s;
+	}
+
+	&:hover .person-pic__cap .part1 {
+		opacity: 1;
+	}
+
+	&:hover .person-pic__cap .part2 {
+		opacity: 1;
+	}
+	
+	&:hover .person-pic__cap::before {
+		background: $base__color1;
+		top: 0px;
+		bottom: 0px;
+		opacity: 1;
+	  	-webkit-transition-delay: 0s;
+	  	transition-delay: 0s;
+	}
+
+}
+
+.vertical-text{
+	@include get-middle();
+	@include vertical-chars();
+	font-weight: 300;
+	text-transform: uppercase;			
+	line-height: 2.5rem;
+
+	span {
+		font-weight: 800;
+		color: $base__color1;
+	}
+}
+
+.social-media-list { 
+	list-style-type: none;
+	@include get-middle();
+  
+  	li{    
+		position: relative;
+	    
+	    i {
+	    	padding: 12px 0 ;
+	    	color: #fff;
+	    	font-size: 1.8rem;
+	    	transition: all .3s ease;
+	      
+	    	&:hover {       
+	        	transform: scale(1.4);     
+	        	padding-bottom: 5px;
+	      	}
+	    }    
+	    
+	    a:hover span {
+	    	background: blue;
+	      	color: white;      
+	    }
+	    
+	    span{
+	    	display: block;
+	      	padding: 10px;
+	      	text-align: center;      
+	      	&:hover {
+	        		display: block;
+	      	}
+	    }
+  	}  
+}
+
+
+/*person Informaiton*/
+.person-info{
+	font-size:16px;
+	&__list{
+		list-style:none;		
+	}
+
+	&__list > li{
+		color:#808080;
+		h4,span{
+			display:inline-block;
+			vertical-align:baseline;
+		}
+
+		h4{
+			font-size:16px;		
+			color:$black;
+		}
+
+		span{
+			font-size:16px;
+		}
+	}
+
+	> p{	
+		line-height:1.8em;
+		color:#808080;
+	}
+}
+
+
+/* buttons*/
+
+a.btn-custom{
+	color:$black;
+	text-decoration:none;
+}
+.btn-custom{
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-size:12px;
+	color:$black;
+	background:transparent;
+	display:inline-block;
+	padding:10px 16px;
+	border:solid 2px $base__color1;
+	position:relative;
+	z-index:5;
+	overflow:hidden;
+	transition:all .3s ease;
+
+	&:after{
+		content: ' ';
+		position:absolute;
+		top:100%;
+		opacity:0;
+		visibility:hidden;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:-1;
+		background: $base__color1;
+		transition:all .3s ease;
+	}
+	&:hover{
+		color:#FFF;
+		border-color:$black;
+	}
+	&:hover:after{
+		top:0;
+		opacity:1;
+		visibility:visible;
+	}
+
+}
+
+
+
+/*service block*/
+
+.services-block{
+	// padding-top:100px;
+}
+.service{		
+  position: relative;
+  width:100%;
+  height: 5.712rem; //96px;  
+  padding: 16px;
+  overflow: hidden;  
+  margin-bottom: 1rem;
+  transition: all .3s ease;
+  
+ 
+  	&:hover {  		    	
+    	box-shadow: inset -1px 1px 3px 0px rgba(0,0,0,0.30);
+  	}
+
+	&__title{
+   	 	position: absolute;
+   		width: 100%;
+		font-size: 16px;
+    	line-height: 1.5em;
+		
+   		transition: all 1s ease;
+    	h4{
+      		display: inline-block;
+      		font-size: 1rem;
+   		}
+	}
+	&__intro{	
+	    display:  inline-block;
+	    position: absolute;    
+	    opacity: 0;	    
+	    transform: translate3d(100%,0,0);
+	    display:  inline-block;   
+		color: #9a9a9a;
+	    transition: all 1s ease;
+	
+		
+		& p{			
+			width: 95%;
+			text-align: center;
+			line-height: 1.5em;
+		} 
+
+	    & a{
+	    	display: block;
+	      	text-decoration: none;
+	      	font-size: 24px;
+	      	line-height: 12px;
+	      	color: $base__color1;  
+	      	letter-spacing: 3px;   
+
+	    }
+	}
+  	
+  	&:hover .service__intro{
+    transform: translate3d(0,0,0);
+    opacity: 1;
+  	} 
+
+  	&:hover .service__title{
+    transform: translate3d(-100%,0,0);
+  	}
+  	
+}
+
+.round-icon{    
+	display: inline-block;	
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	background: #fff;
+	color:  $base__color1;
+	border: 2px solid  $base__color1;		
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 1s ease;
+
+	&:hover{
+		background: $base__color1;
+		color: #fff;
+	}	
+}
+
+
+/*funfact block*/
+.funfacts-block{
+	margin-bottom:0;
+}
+
+.funfact{
+	padding: 10px;
+}
+
+.funfact > h4{
+	font-size:3rem;
+	font-weight:bold;
+	margin-bottom: 1.3rem;
+}
+
+.funfact > p{
+	margin:0;
+	width:100%;
+	font-size:14px;
+	font-style:italic;
+	letter-spacing:1px;
+	color: #808080;
+}

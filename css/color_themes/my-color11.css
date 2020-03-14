@@ -1,0 +1,108 @@
+/*=====================================
+=            Color-palette            =
+=====================================*/
+.borders .border {
+  background: #9068be !important;
+}
+
+.menu__items .item > a:hover > span {
+  color: #9068be !important;
+}
+
+.person-pic .part2 {
+  background: #9068be !important;
+  background: rgba(144, 104, 190, 0.85) !important;
+}
+
+.person-pic:hover .person-pic__cap::before {
+  background: #9068be !important;
+}
+
+.vertical-text span {
+  color: #9068be !important;
+}
+
+.btn-custom {
+  border: solid 2px #9068be !important;
+}
+
+.btn-custom:after {
+  background: #9068be !important;
+}
+
+.service__intro a {
+  color: #9068be !important;
+}
+
+.round-icon {
+  color: #9068be !important;
+  border: 2px solid #9068be !important;
+}
+
+.round-icon:hover {
+  background: #9068be !important;
+}
+
+.timeline-header {
+  background: #9068be !important;
+}
+
+.timeline:before {
+  background: #9068be !important;
+}
+
+.timeline .timeline__item__content {
+  border: solid 1px #9068be !important;
+}
+
+.timeline .timeline__item__content:before {
+  background: #9068be !important;
+}
+
+.timeline .timeline__item__content:after {
+  border: solid 1px #9068be !important;
+}
+
+.skill__bar {
+  border: solid 1px #9068be !important;
+}
+
+.skill__bar__percent {
+  background: linear-gradient(to right, #7649aa, #9068be, #c4afdd) !important;
+}
+
+.btn-resume {
+  background: #9068be !important;
+}
+
+.btn-resume:hover {
+  border-color: #9068be !important;
+}
+
+.port-btn--active {
+  color: #9068be !important;
+}
+
+.portfolio__item > figure > .view-project {
+  color: #9068be !important;
+}
+
+.post-category {
+  color: #9068be !important;
+}
+
+.read-more a:hover {
+  color: #9068be !important;
+}
+
+button.btn-submit {
+  background: #9068be !important;
+}
+
+button.btn-submit:hover {
+  border-color: #9068be !important;
+}
+
+.social-media__list li i {
+  color: #9068be !important;
+}

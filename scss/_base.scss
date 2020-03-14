@@ -1,0 +1,334 @@
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Fonts
+$font1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font2: Georgia, serif;
+
+
+// = Colors
+// -----------------------------
+$base__color1: #18bc9c;      
+$black: #202020; 
+$white: #fff;
+
+
+
+// ----------------------
+// == Mixins
+// ----------------------
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
+@mixin get-middle(){
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@mixin vertical-chars(){
+  width: 24px;
+  font-size: 24px;
+  word-wrap: break-word;
+}
+
+@mixin border-shadow{
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+}
+
+
+// ----------------------
+// == functions
+// ----------------------
+$line-height: 1.428rem !global;
+@function pushm($number){
+  @return $line-height * $number;
+}
+@function pushd($number){
+  @return $line-height / $number;
+} 
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+/*============================================
+=           01. Basic general syltes             =
+============================================*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab");
+*{
+  
+  font-family: 'Roboto', sans-serif; 
+ }
+.toggle-menu > span,
+.post-nav a,
+.blog-post > .inner > .content > .read-more,
+.btn-custom, .menu-nav > ul > li > a > span > span,
+#preloader > .inner > .loader > .loader-text,
+h1, h2, h3, h4, h5, h6{	
+
+	font-family: 'Roboto Slab', $font1,$font2;
+}
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: $black;
+	color: $black;
+	overflow: hidden;
+}
+
+body,html,#wraper{
+	height: 100%;
+	width: 100%;
+}
+body{
+  height: 100%;
+  width:100%;
+  z-index: 100000;
+}                       
+
+
+/*============================================
+=            Typo vertical rythem            =
+============================================*/
+/**
+ *
+ * Font-size = 100% (16px)
+ * 
+ * line-height = 1.428
+ * 
+ * Type-scale = 1.125  Major second
+ * 
+ * Margin and padding multiple of line-height
+ *
+ */
+
+html {
+  font-size: 100%;
+  line-height: 1.428;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote,
+details,
+hr,
+fieldset,
+pre,
+table {
+  margin: 0 0 1.428rem;
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 3.2130rem;
+}
+
+.zetta {
+  font-size: 2.0273rem;
+  line-height: 2.8560rem;
+}
+
+h1,
+.exa {
+  font-size: 1.8020rem;
+  line-height: 2.4990rem;
+}
+
+h2,
+.peta {
+  font-size: 1.6018rem;
+  line-height: 2.1420rem;
+}
+
+h3,
+.tera {
+  font-size: 1.4238rem;
+  line-height: 2.1420rem;
+}
+
+h4,
+.giga {
+  font-size: 1.2656rem;
+  line-height: 1.7850rem;
+}
+
+h5,
+.mega {
+  font-size: 1.1250rem;
+  line-height: 1.7850rem;
+}
+
+h6,
+.kilo,
+input,
+textarea {
+  font-size: 1.0000rem;
+  line-height: 1.4280rem;
+}
+
+small,
+.milli {
+  font-size: 0.8889rem;
+  line-height: 1.4280rem;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 1.4280rem;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+ol {
+  padding-left: 1.6em;
+}
+
+
+
+
+// .push {
+//   margin-bottom: 1.428rem;
+// }
+
+// .push-none,
+// .push-0 {
+//   margin-bottom: 0;
+// }
+
+// .push-double,
+// .push-2 {
+//   margin-bottom: 2.8560rem;
+// }
+
+// .push-half,
+// .push-1-2 {
+//   margin-bottom: 0.7140rem;
+// }
+
+// .push-quarter,
+// .push-1-4 {
+//   margin-bottom: 0.3570rem;
+// }
+
+// .push-eighth,
+// .push-1-8 {
+//   margin-bottom: 0.1785rem;
+// }
+
+// .push-right-eighth,
+// .push-r-1-8 {
+//   margin-right: 0.1785rem;
+// }
+
+// .push-right-quarter,
+// .push-r-1-4 {
+//   margin-right: 0.3570rem;
+// }
+
+// .push-right-half,
+// .push-r-1-2 {
+//   margin-right: 0.7140rem;
+// }
+
+// .push-right,
+// .push-r {
+//   margin-right: 1.428rem;
+// }
+
+// .pad-top,
+// .pad-t {
+//   padding-top: 1.428rem;
+// }
+
+// .pad-bottom,
+// .pad-b {
+//   padding-bottom: 1.428rem;
+// }
+
+// .pad-top-double,
+// .pad-t-2 {
+//   padding-top: 2.8560rem;
+// }
+
+// .pad-bottom-double,
+// .pad-b-2 {
+//   padding-bottom: 2.8560rem;
+// }
+
+// .pad-top-half,
+// .pad-t-1-2 {
+//   padding-top: 0.7140rem;
+// }
+
+// .pad-bottom-half,
+// .pad-b-1-2 {
+//   padding-bottom: 0.7140rem;
+// }
+
+// .pad-top-quarter,
+// .pad-t-1-4 {
+//   padding-top: 0.3570rem;
+// }
+
+// .pad-bottom-quarter,
+// .pad-b-1-4 {
+//   padding-bottom: 0.3570rem;
+// }
+
+// .pad-top-eighth,
+// .pad-t-1-8 {
+//   padding-top: 0.1785rem;
+// }
+
+// .pad-bottom-eighth,
+// .pad-b-1-8 {
+//   padding-bottom: 0.1785rem;
+// }
+
+// .island {
+//   padding: 1.428rem;
+// }
+
+// .island-double,
+// .island-2 {
+//   padding: 2.8560rem;
+// }
+
+// .island-half,
+// .island-1-2 {
+//   padding: 0.7140rem;
+// }
+
+// .island-quarter,
+// .island-1-4,
+// td,
+// th,
+// fieldset {
+//   padding: 0.3570rem;
+// }
+
+// .island-eighth,
+// .island-1-8 {
+//   padding: 0.1785rem;
+// }
+
+

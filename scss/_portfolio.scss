@@ -1,0 +1,149 @@
+/*============================
+=  07. Portfolio Section           =
+============================*/
+/*----------  Portfolio Layout  ----------*/
+/*----------  Portfolio elements  ----------*/
+
+
+//portfolio nav btn
+.port-btn {
+    background-color: white; /* Green */
+    border: none;
+    color: #9da3a2;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 10px 4px 0px;
+    cursor: pointer;
+    transition: transform .2s ease;
+    &:focus {
+    	outline:0;
+    }
+}
+
+.port-btn--active {
+    background-color: white;
+    color: $base__color1;
+    transition: color .3s ease;
+    transform: scale(.95);
+}
+
+//Portfolio
+.portfolio{
+	list-style:none;
+	padding:0;
+	margin:0 -10px;
+	margin-top:50px;
+
+
+	&__item{
+		margin-bottom: 30px;
+
+	}
+
+	&__item > figure{
+		position:relative;
+		margin-bottom:0px;
+		@include border-shadow;
+
+		&:hover > .view-project{
+			opacity:1;
+			visibility:visible;
+		}
+
+	}
+	
+	&__item > figure > img{
+	display:block;
+	max-width: 100%;	
+	
+	}
+
+	&__item > figure > .view-project{
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		background-color:rgba(0,0,0,.85);
+		text-decoration:none;
+		display:block;
+		color: $base__color1;
+		opacity:0;
+		visibility:hidden;
+		transition:all .5s ease;
+
+		i{
+			font-size:40px;
+			position:absolute;
+			top:50%;
+			left:0;
+			right:0;
+			margin:auto;
+			text-align:center;
+
+			transform:translateY(-50%);
+		}
+	}
+
+}
+
+//portfolio items captions
+ figcaption.content{
+	padding:15px;
+	background-color:#F0F0F0;
+
+	& > h4{
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-size:16px;
+	font-weight:bold;
+	margin:0;
+	margin-bottom:4px;
+	}
+
+	& > p{
+		margin:0;
+		font-size:12px;
+		color:#808080;
+	}
+}
+
+
+//popup content
+.popup-box{
+	background-color:#FFF;
+	max-width:450px;
+	margin:0 auto;
+	overflow-y:auto;
+	position:relative;
+	padding:5px;
+
+	figure img{
+		max-width: 100%;
+	}
+	
+	& > .mfp-close{
+		top:0;
+		background-color:#FFF;
+		opacity:1;
+	}
+
+	& > .content-view{
+		padding:25px;
+	}
+
+	&> .content-view > h4{
+		text-transform:uppercase;
+		letter-spacing:2px;
+		font-weight:bold;
+	}
+	&> .content-view > p{
+		line-height:1.8em;
+		font-size:14px;
+		color:#808080;
+	}
+
+}
+

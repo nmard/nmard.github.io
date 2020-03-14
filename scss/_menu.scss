@@ -1,0 +1,179 @@
+/*============================
+=            03. Menu            =
+============================*/
+/*----------  Menu Layout  ----------*/
+.l-menu{	
+	position: fixed;
+	z-index: 48;
+	top: 37px;
+	right: 0;
+	bottom: 37px;
+	width: 55%;
+	background-color: $white;
+	overflow-x: hidden;
+	overflow-y: auto;
+	transform: translate3d(100%,0,0);//to hide menu
+	transition: all .3s ease;
+
+	&--active{
+		transform: translate3d(0, 0, 0); //to show menu
+		transition: all .3s ease;
+		right: 37px;
+	}
+}
+
+/*----------  Menu elements  ----------*/
+
+/** menu btn */
+.toggle-menu{
+	display: block;
+	position: fixed;
+	right: 0px;
+	top: 50%;
+	z-index: 199;
+	width: 35px;
+	margin-top: -36px;
+	text-decoration: none !important;
+	transition: all .3s ease;
+
+	&--left{
+		left: 0px;
+	}
+
+	&__btn{
+		cursor: pointer;
+		position: relative; 
+		display: block;
+		margin: 20px auto;
+		height: 32px;
+		width: 23px;
+		top: 50%;
+		z-index: 5;
+		> span{
+			display: block;
+			width: 2px;
+			height: inherit;
+			background: $black;
+			position: absolute;
+			top: 0;
+			transition: transform .3s ease,
+						margin .3s ease, 
+						height .3s ease, 
+						left .3s .3s ease, 
+						background .3s ease;
+		}	
+		>.l1{
+			left: 4px;
+
+		}
+		>.l2{
+			left: 11px;
+			transition: all .3s ease,
+						opacity .3s .3s ease;
+		}
+		>.l3{
+			left: 17px;
+		}
+
+		/* btn after click */
+		&--active> span{
+			transition:  left .3s ease,
+						 height .3s .3s ease,
+						 margin .3s .3s ease, 
+						 transform .3s .3s ease, 
+						 background .3s ease;
+		}				 
+		&--active .l2{
+			opacity: 0;
+			transition: all .3s ease;
+		}
+		&--active > .l1,
+		&--active > .l3{
+			left: 11px;
+			height: 19px;
+			margin-top: 2px;	
+		}
+
+		&--active > .l1{
+			transform: rotate(45deg) translate3d(0, 0, 0);
+		}
+		&--active > .l3{
+			transform: rotate(-45deg) translate3d(0, 0, 0);
+		}
+
+	}	
+}
+
+/* Menu Nav verticlal*/
+
+.menu{
+
+	&__items{
+		list-style:none;
+		padding: 0;
+		width:350px;
+		margin:auto;
+		position:absolute;
+		left:0;
+		right:0;
+		text-align:center;
+		top:50%;
+		transform:translate3d(0, -50%, 0);
+
+		.item{
+			padding: 16px 0;
+			opacity: 0;
+			visibility: hidden;
+			transform: translate3d(0,15px,0);
+		}
+		.item > a{
+			font-size: 19px;
+			color: $black;
+			text-decoration: none;
+			height: 1em;
+			font-weight: 500;
+			line-height: 1em;
+			vertical-align: middle;
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			text-transform: uppercase;
+			transition: all .3s ease;
+		}	
+
+		.item >	a > span{
+			position: absolute;
+			overflow: hidden;
+			height: 100%;
+			width: 100%;
+			left: 0;
+			transition: all .3s ease;
+		}
+
+		.item > a:hover > span{
+			 transform: scale(1.2);
+			 color: $base__color1;
+		}			
+
+
+		.item.low-opacity>a{
+			opacity: .4;
+		}
+	}
+	
+	&--active .item{
+		opacity: 1;
+		visibility:  visible;
+		transform: translate3d(0, 0, 0);
+		transition: all .3s 3s ease;
+
+		@for $i from 1 through 10{  //for loop to make delay menu elements 
+			&:nth-child(#{$i}){
+				transition-delay: 0.3s + ($i * 0.20);
+			}
+		}
+	}
+
+
+
+}

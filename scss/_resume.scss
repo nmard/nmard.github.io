@@ -1,0 +1,201 @@
+/*============================
+=   06. Resume Section            =
+============================*/
+/*----------  Resume Layout  ----------*/
+/*----------  Resume elements  ----------*/
+
+.education-block{
+	padding-top:40px;
+}
+
+/** Timeline */
+.timeline-header{
+	font-size:16px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-weight:bold;
+	margin:0;
+	display:inline-block;
+	background:$base__color1;
+	color:#FFF;
+	padding:8px 15px;
+}
+
+.timeline{
+	padding:0;
+	list-style:none;
+	margin:0;
+	position:relative;
+	padding-top:40px;
+	
+	&:before{
+		content: ' ';
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:1px;
+		background:$base__color1;
+	}
+	&:after{
+		content: ' ';
+		clear:both;
+		display:table;
+	}
+
+	.timeline__item{
+		margin-bottom:40px;
+		padding-left:40px;
+	}
+
+	.timeline__item__content{
+		position:relative;
+		display:block;
+		padding:15px;
+		border:solid 1px $base__color1;
+
+		&:before{
+			content: ' ';
+			position:absolute;
+			top:10px;
+			right:100%;
+			height:1px;
+			width:40px;
+			background:$base__color1;
+		}
+		&:after{
+			content:' ';
+			position:absolute;
+			top:4px;
+			left:-46px;
+			height:12px;
+			width:12px;
+			background:#FFF;
+			border:solid 1px $base__color1;
+			border-radius:50%;
+		}
+		 & > h4{
+			font-size:16px;
+			text-transform:uppercase;
+			letter-spacing:2px;
+			font-weight:bold;
+			margin:0;
+			margin-bottom:2px;
+		}
+		& > em{
+			font-size:14px;
+			font-style:italic;
+			color:#808080;
+		}
+		& > p{
+			font-size:16px;
+			line-height:1.8em;
+			margin:0;
+			margin-top:4px;
+			color:#404040;
+		}
+	}
+	
+
+}
+
+
+
+ 
+
+.experience-block{
+	padding-top:40px;
+}
+
+
+/** Skill section */
+.skills-block{
+	padding-top:5.712rem;
+}
+.skills-block > .block-header{
+	margin-bottom:40px;
+}
+
+// skill
+.skill{
+	position:relative;
+	margin-bottom:40px;
+	
+	&:last-of-type{
+		// margin-bottom:0;
+	}
+
+	&__name{
+		margin:0;
+		text-transform:uppercase;
+		font-size:16px;
+		font-weight:bold;
+		letter-spacing:1px;
+		margin-bottom:5px;
+	}
+	&__percent{
+		position:absolute;
+		right:0;
+		top:0;
+		line-height:15px;
+	}
+	&__bar{
+		border:solid 1px $base__color1;
+		padding:3px;
+		
+		&__percent{
+			width:0%;			
+			background: linear-gradient(to right, darken( $base__color1, 10% ),$base__color1,lighten( $base__color1, 20% ) );
+			height:4px;
+		}
+	}
+	
+}
+
+//btn
+.download-btn{
+
+}
+a.btn-resume{
+	color:#fff;
+	text-decoration:none;
+}
+.btn-resume{
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-size:16px;
+	color:#fff;
+	background:$base__color1;
+	display:inline-block;
+	padding:10px 16px;
+	border:solid 2px #fff;
+	position:relative;
+	z-index:5;
+	overflow:hidden;
+	transition:all .3s ease;
+
+
+	&:after{
+		content: ' ';
+		position:absolute;
+		top:100%;
+		opacity:0;
+		visibility:hidden;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:-1;
+		background: #fff;
+		transition:all .3s ease;
+	}
+	&:hover{
+		color:$black;
+		border-color:$base__color1;
+	}
+	&:hover:after{
+		top:0;
+		opacity:1;
+		visibility:visible;
+	}
+
+}

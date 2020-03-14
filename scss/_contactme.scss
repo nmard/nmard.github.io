@@ -1,0 +1,151 @@
+/*============================
+=   09. Contact Me Section     =
+============================*/
+/*----------  Contact Me Layout  ----------*/
+/*----------  Contact Me elements  ----------*/
+
+.contact-block > .block-header{
+	margin-bottom:40px;
+}
+.contact-info{
+	position:relative;
+	margin-bottom:30px;
+}
+
+.contact-form{
+
+	 margin-bottom: 2.856rem;
+}
+.contact-form .btn-custom{
+	font-size:12px;
+}
+.form-control{
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+	border-radius:0;
+	border-color:#A0A0A0;
+	height:auto;
+	padding:10px;
+	font-size:14px;
+}
+.form-control:focus{
+	border-color:#202020;
+}
+textarea.form-control{
+	resize:vertical;
+	min-height: 180px;
+}
+.alert{
+	position:relative;
+	border-radius:0;
+	background:#FFF;
+}
+
+//submit btn 
+
+button.btn-submit{
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-size:16px;
+	color:#fff;
+	background:$base__color1;
+	display:inline-block;
+	padding:10px 16px;
+	border:solid 2px #fff;
+	position:relative;
+	z-index:5;
+	overflow:hidden;
+	transition:all .3s ease;
+	margin-bottom: 1.428rem;
+
+	&:focus {
+		outline:0;
+	}
+	&:after{
+		content: ' ';
+		position:absolute;
+		top:100%;
+		opacity:0;
+		visibility:hidden;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:-1;
+		background: #fff;
+		transition:all .3s ease;
+	}
+	&:hover{
+		color:$black;
+		border-color:$base__color1;
+	}
+	&:hover:after{
+		top:0;
+		opacity:1;
+		visibility:visible;
+	}
+
+}
+
+.contact-infos{
+	font-size:16px;
+	&__list{
+		list-style:none;		
+	}
+
+	&__list > li{
+		color:#808080;
+		h4,span{
+			display:inline-block;
+			vertical-align:baseline;
+		}
+
+		h5{
+			font-size:16px;		
+			color:$black;
+			display: inline-block;
+
+			span{
+				font-family: 'Roboto', sans-serif;
+				color: #808080;
+				font-size:16px;
+				margin-left: 5px;
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+
+.social-media__list{
+		list-style-type: none;	
+		padding-left: 0;
+		display: inline-block;
+		margin-left: 16px;
+	  	li{    
+			display: inline;
+
+			a{
+				text-decoration: none;
+			}	
+		    
+		    i {
+		    	margin-right: 16px; ;
+		    	color: $base__color1;
+		    	font-size: 1.4rem;
+		    	transition: all .3s ease;
+		      
+		    	&:hover {       
+		        	transform: scale(1.4);     
+		        	padding-bottom: 5px;
+		      	}
+		    }  		    
+		    
+	  	}  
+}
+
+
+.mymap{
+	@include border-shadow;
+	width:100%;height:500px
+}

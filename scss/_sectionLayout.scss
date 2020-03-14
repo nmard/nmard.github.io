@@ -1,0 +1,146 @@
+/*=======================================
+= 04. Section layout (common for all section layout) =
+=======================================*/
+
+/*----------  Section layout  ----------*/
+.section{
+
+	position:relative;
+	z-index:-1;	
+	&> .bg{
+		position:fixed;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		background-size:cover;
+		z-index:1;
+		opacity:0;
+		z-index:5;
+		transition:all .3s ease;
+		transform:translate3d(0,0,0);
+	}
+
+	&> .content{
+		z-index:15;
+		width:55%;
+		top:35px;
+		bottom:35px;
+		right:0;
+		background-color: $white;
+		// background-image: repeating-linear-gradient(to bottom, transparent 0px, transparent 23px, red 23px, red 24px) ;
+		 // background-image: repeating-linear-gradient(to bottom, transparent 0px, transparent 22px, red 22px, red 23px);
+		position:fixed;
+		padding: pushm(4);
+		padding-bottom: 0;
+		overflow-y:auto;
+		transition:all .3s ease;
+		transform:translate3d(100%, 0, 0);
+		&:after{
+			content: ' ';
+			height: pushm(4);
+			display:block;
+		}
+	}
+}
+
+.section.active{
+	z-index:40;
+}
+
+/* section after menu button or menu item clicked*/
+body.show-menu.show-section .section.active > .content{
+	transform:translate3d(100%, 0, 0);
+	right:0;
+}
+body.show-section .section.active > .content{
+	transform:translate3d(0, 0, 0);
+	right:35px;
+}
+body.show-section .section.active > .bg{
+	opacity:1;
+	transition:all .3s .3s ease;
+	transform:translate3d(-7%, 0, 0);
+}
+body.show-section.show-menu .section.active > .bg{
+	transform:translate3d(0, 0, 0);
+	opacity:0;
+	transition:transform .3s ease, opacity .3s .3s ease;
+}
+body.show-section.show-menu .main-bg{
+	transform:translate3d(-7%, 0, 0);
+	transition:transform .3s .3s ease;
+}
+body.show-section .main-bg:after{
+	opacity:0 !important;
+}
+body.show-section .intro-text{
+	opacity:0;
+	transform:translate3d(-15%, 0, 0);
+}
+
+/*----------  Section elements  common  ----------*/
+
+/*ScrollBar*/
+.myscroll::-webkit-scrollbar,
+.myscroll::-webkit-scrollbar{
+	height:10px;
+	width:10px;
+	background:#FFF;
+}
+.myscroll::-webkit-scrollbar-thumb,
+.myscroll::-webkit-scrollbar-thumb{
+	border:solid 4px #FFF;
+	background:#FFF;
+}
+.myscroll:hover::-webkit-scrollbar-thumb,
+.myscroll:hover::-webkit-scrollbar-thumb{
+	background:#808080;
+}
+.myscroll::-webkit-scrollbar-thumb:hover,
+.myscroll::-webkit-scrollbar-thumb:hover{
+	background:#202020;
+}
+
+
+
+.myscroll::-moz-scrollbar,
+.myscroll::-moz-scrollbar{
+	height:10px;
+	width:10px;
+	background:#FFF;
+}
+.myscroll::-moz-scrollbar-thumb,
+.myscroll::-moz-scrollbar-thumb{
+	border:solid 4px #FFF;
+	background:#FFF;
+}
+.myscroll:hover::-moz-scrollbar-thumb,
+.myscroll:hover::-moz-scrollbar-thumb{
+	background:#808080;
+}
+.myscroll::-moz-scrollbar-thumb:hover,
+.myscroll::-moz-scrollbar-thumb:hover{
+	background:#202020;
+}
+
+
+.myscroll::scrollbar,
+.myscroll::scrollbar{
+	height:10px;
+	width:10px;
+	background:#FFF;
+}
+.myscroll::scrollbar-thumb,
+.myscroll::scrollbar-thumb{
+	border:solid 4px #FFF;
+	background:#FFF;
+}
+.myscroll:hover::scrollbar-thumb,
+.myscroll:hover::scrollbar-thumb{
+	background:#808080;
+}
+.myscroll::scrollbar-thumb:hover,
+.myscroll::scrollbar-thumb:hover{
+	background:#202020;
+}

@@ -1,0 +1,108 @@
+/*=====================================
+=            Color-palette            =
+=====================================*/
+.borders .border {
+  background: #e74c3c !important;
+}
+
+.menu__items .item > a:hover > span {
+  color: #e74c3c !important;
+}
+
+.person-pic .part2 {
+  background: #e74c3c !important;
+  background: rgba(231, 76, 60, 0.85) !important;
+}
+
+.person-pic:hover .person-pic__cap::before {
+  background: #e74c3c !important;
+}
+
+.vertical-text span {
+  color: #e74c3c !important;
+}
+
+.btn-custom {
+  border: solid 2px #e74c3c !important;
+}
+
+.btn-custom:after {
+  background: #e74c3c !important;
+}
+
+.service__intro a {
+  color: #e74c3c !important;
+}
+
+.round-icon {
+  color: #e74c3c !important;
+  border: 2px solid #e74c3c !important;
+}
+
+.round-icon:hover {
+  background: #e74c3c !important;
+}
+
+.timeline-header {
+  background: #e74c3c !important;
+}
+
+.timeline:before {
+  background: #e74c3c !important;
+}
+
+.timeline .timeline__item__content {
+  border: solid 1px #e74c3c !important;
+}
+
+.timeline .timeline__item__content:before {
+  background: #e74c3c !important;
+}
+
+.timeline .timeline__item__content:after {
+  border: solid 1px #e74c3c !important;
+}
+
+.skill__bar {
+  border: solid 1px #e74c3c !important;
+}
+
+.skill__bar__percent {
+  background: linear-gradient(to right, #d62c1a, #e74c3c, #f29f97) !important;
+}
+
+.btn-resume {
+  background: #e74c3c !important;
+}
+
+.btn-resume:hover {
+  border-color: #e74c3c !important;
+}
+
+.port-btn--active {
+  color: #e74c3c !important;
+}
+
+.portfolio__item > figure > .view-project {
+  color: #e74c3c !important;
+}
+
+.post-category {
+  color: #e74c3c !important;
+}
+
+.read-more a:hover {
+  color: #e74c3c !important;
+}
+
+button.btn-submit {
+  background: #e74c3c !important;
+}
+
+button.btn-submit:hover {
+  border-color: #e74c3c !important;
+}
+
+.social-media__list li i {
+  color: #e74c3c !important;
+}

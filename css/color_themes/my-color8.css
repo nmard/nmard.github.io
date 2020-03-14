@@ -1,0 +1,108 @@
+/*=====================================
+=            Color-palette            =
+=====================================*/
+.borders .border {
+  background: #b4b0e3 !important;
+}
+
+.menu__items .item > a:hover > span {
+  color: #b4b0e3 !important;
+}
+
+.person-pic .part2 {
+  background: #b4b0e3 !important;
+  background: rgba(180, 176, 227, 0.85) !important;
+}
+
+.person-pic:hover .person-pic__cap::before {
+  background: #b4b0e3 !important;
+}
+
+.vertical-text span {
+  color: #b4b0e3 !important;
+}
+
+.btn-custom {
+  border: solid 2px #b4b0e3 !important;
+}
+
+.btn-custom:after {
+  background: #b4b0e3 !important;
+}
+
+.service__intro a {
+  color: #b4b0e3 !important;
+}
+
+.round-icon {
+  color: #b4b0e3 !important;
+  border: 2px solid #b4b0e3 !important;
+}
+
+.round-icon:hover {
+  background: #b4b0e3 !important;
+}
+
+.timeline-header {
+  background: #b4b0e3 !important;
+}
+
+.timeline:before {
+  background: #b4b0e3 !important;
+}
+
+.timeline .timeline__item__content {
+  border: solid 1px #b4b0e3 !important;
+}
+
+.timeline .timeline__item__content:before {
+  background: #b4b0e3 !important;
+}
+
+.timeline .timeline__item__content:after {
+  border: solid 1px #b4b0e3 !important;
+}
+
+.skill__bar {
+  border: solid 1px #b4b0e3 !important;
+}
+
+.skill__bar__percent {
+  background: linear-gradient(to right, #908ad6, #b4b0e3, #fbfbfe) !important;
+}
+
+.btn-resume {
+  background: #b4b0e3 !important;
+}
+
+.btn-resume:hover {
+  border-color: #b4b0e3 !important;
+}
+
+.port-btn--active {
+  color: #b4b0e3 !important;
+}
+
+.portfolio__item > figure > .view-project {
+  color: #b4b0e3 !important;
+}
+
+.post-category {
+  color: #b4b0e3 !important;
+}
+
+.read-more a:hover {
+  color: #b4b0e3 !important;
+}
+
+button.btn-submit {
+  background: #b4b0e3 !important;
+}
+
+button.btn-submit:hover {
+  border-color: #b4b0e3 !important;
+}
+
+.social-media__list li i {
+  color: #b4b0e3 !important;
+}

@@ -1,0 +1,83 @@
+/*================================================================================
+	10. Responsive CSS
+================================================================================*/
+@media (max-width:992px){
+	.l-menu,
+	.section > .content{
+		width: auto;
+		left: 35px;
+	}
+	.section > .content{
+		padding: 70px;
+		padding-bottom: 0;
+	}
+	.section > .content:after{
+		height: 70px;
+	}
+}
+@media (max-width:768px){
+	.portfolio-items > li,
+	.l-menu-nav > ul,
+	.blog-post{
+		width:100%;
+	}
+	.intro-text > h1{
+		font-size:48px;
+		margin-bottom:5px;
+	}
+	.intro-text > p{
+		font-size:16px;
+	}
+}
+@media (max-width:500px){
+	.borders > .borders__top,
+	.borders > .borders__bottom{
+		height:10px;
+	}
+	.borders > .borders__right{
+		display:block;
+		transition:all .3s ease;		
+	}
+	.borders > .borders__left{
+		width:10px;
+	}
+	.main-section{
+		padding:10px;
+		padding-left:40px;
+	}
+	.l-menu,
+	.section > .content{
+		top:11px;
+		right:0px;
+		bottom:11px;
+		left:10px;
+	}
+	body.show-menu .l-menu,
+	body.show-section .section.active > .content{
+		left:10px;
+	}
+	body.show-menu .l-menu .menu__items{
+		left: -35px;
+	}
+	.section > .content{
+		padding:50px 20px;
+		padding-bottom:0;
+	}
+	.section > .content:after{
+		height:50px;
+	}
+	.contact-infos > div{
+		width:100%;
+		float:none;
+	}
+}
+@media (max-width:400px){
+	.intro-text > h1{
+		font-size:33px;
+		margin-bottom:15px;
+	}
+	.info-list > li{
+		width:100%;
+		float:none;
+	}
+}

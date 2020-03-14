@@ -1,0 +1,108 @@
+/*============================
+=    08. My blog Section     =
+============================*/
+/*----------  My blog Layout  ----------*/
+/*----------  My blog elements  ----------*/
+/*================================================================================
+	Blog Section
+================================================================================*/
+.blog-block > .block-header{
+	// margin-bottom: 4.284rem;
+}
+
+.user-avatar{
+
+	margin-bottom:  2.856rem;	
+	a{
+
+		color: inherit;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	a > img{
+		width: 2.856rem;
+		height: 2.856rem;
+		display: inline-block;
+		vertical-align: middle;
+		border-radius: 100%;		
+		
+	}
+	&__comment{
+		font-size: 14px;
+		font-style: italic;
+		color: #808080;
+		margin: 0 8px;
+		padding: 10px;
+	}
+}	
+
+.blog-posts{
+	// margin: 0 -10px;
+	// width: 100%;
+	
+}
+.blog-post{
+	position:relative;
+	margin-bottom:  4.284rem;
+	padding: 1.428rem;
+	border-radius: 3px;
+	background: #fff;
+	@include border-shadow;
+}
+.blog-post > .inner{
+	margin:0 10px;
+
+	img{
+		width: 100%;		
+	}
+}
+
+
+.post-heading{
+	h3{
+		
+	}
+}
+
+.postmeta{
+	&__authorlockup{
+	padding: 0 10px;
+	font-size: 14px;
+	background-color: #ccc;
+	margin-bottom: 2rem;
+	}
+}
+
+.post-date{
+	color: #808080;
+	text-transform: uppercase;
+
+}
+.divider{
+font-weight: bold;
+margin: 0 5px;
+}
+
+.post-category{
+	color: $base__color1;
+	text-transform: uppercase;
+}
+
+.post-intro{
+	font-size: 16px;	
+
+}
+.read-more{
+	font-size: 16px;	
+	text-transform: uppercase;
+	a{
+		text-decoration: none;
+		color: #808080;
+		transition: all .5s ease;
+		&:hover{
+			color: $base__color1;			
+		}
+	}
+}
+

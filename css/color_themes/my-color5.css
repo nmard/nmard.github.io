@@ -1,0 +1,108 @@
+/*=====================================
+=            Color-palette            =
+=====================================*/
+.borders .border {
+  background: #445cbb !important;
+}
+
+.menu__items .item > a:hover > span {
+  color: #445cbb !important;
+}
+
+.person-pic .part2 {
+  background: #445cbb !important;
+  background: rgba(68, 92, 187, 0.85) !important;
+}
+
+.person-pic:hover .person-pic__cap::before {
+  background: #445cbb !important;
+}
+
+.vertical-text span {
+  color: #445cbb !important;
+}
+
+.btn-custom {
+  border: solid 2px #445cbb !important;
+}
+
+.btn-custom:after {
+  background: #445cbb !important;
+}
+
+.service__intro a {
+  color: #445cbb !important;
+}
+
+.round-icon {
+  color: #445cbb !important;
+  border: 2px solid #445cbb !important;
+}
+
+.round-icon:hover {
+  background: #445cbb !important;
+}
+
+.timeline-header {
+  background: #445cbb !important;
+}
+
+.timeline:before {
+  background: #445cbb !important;
+}
+
+.timeline .timeline__item__content {
+  border: solid 1px #445cbb !important;
+}
+
+.timeline .timeline__item__content:before {
+  background: #445cbb !important;
+}
+
+.timeline .timeline__item__content:after {
+  border: solid 1px #445cbb !important;
+}
+
+.skill__bar {
+  border: solid 1px #445cbb !important;
+}
+
+.skill__bar__percent {
+  background: linear-gradient(to right, #364a96, #445cbb, #8f9dd6) !important;
+}
+
+.btn-resume {
+  background: #445cbb !important;
+}
+
+.btn-resume:hover {
+  border-color: #445cbb !important;
+}
+
+.port-btn--active {
+  color: #445cbb !important;
+}
+
+.portfolio__item > figure > .view-project {
+  color: #445cbb !important;
+}
+
+.post-category {
+  color: #445cbb !important;
+}
+
+.read-more a:hover {
+  color: #445cbb !important;
+}
+
+button.btn-submit {
+  background: #445cbb !important;
+}
+
+button.btn-submit:hover {
+  border-color: #445cbb !important;
+}
+
+.social-media__list li i {
+  color: #445cbb !important;
+}
