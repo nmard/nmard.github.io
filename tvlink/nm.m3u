@@ -1,0 +1,190 @@
+#EXTM3U
+#EXTINF:-1 group-title="" tvg-id="" tvg-name="" tvg-language="" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/info.png",CHANNEL MATI WHATSAPP KAMI SEGERA
+http://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/nature.mp4
+
+#EXTINF:-1 group-title="" tvg-logo="http://pictures.my.id/images/corona.png", CORONA VIRUS LIVE UPDATE
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1584267887/ei/D65tXo-IM_yb3LUP9PmYiAo/ip/125.160.65.89/id/qgylp3Td1Bw.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/r6---sn-2uuxa3vh-cqws.googlevideo.com/vprv/1/playlist_type/DVR/initcwndbps/4200/mh/2O/mm/44/mn/sn-2uuxa3vh-cqws/ms/lva/mv/m/mvi/5/pl/22/dover/11/keepalive/yes/fexp/23842630/mt/1584246198/disable_polymer/true/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,goi,sgoap,sgovp,vprv,playlist_type/sig/ADKhkGMwRQIhAMKNuGAnAFCKcFHXtITqQy2eMbzlbfbb4FMc-WkRt0EVAiBofQPZOOaxfVcaYXlb7hZizwI07AHGFPS10LMLEs8Mug%3D%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/ABSNjpQwRAIgBUpezpYAlcDSu-iEuEM-nB1nYSbIScKeesWBVDUDIGkCIGiQh4OtBg3VpIOwrlxDrCHxljuibYVwqZhP3Qn51sE-/playlist/index.m3u8
+
+
+#####
+#####
+
+
+
+
+#EXTINF:-1 tvg-logo="https://www.useetv.com/assets/images/channel/logo_idku2_small.png" group-title="",ID KU
+https://raw.githubusercontent.com/b4byhuey/chunklist/master/IDKU.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/sctv.png",SCTV
+http://raw.githubusercontent.com/nmard/nmard.github.io/master/tvlink/favorite/sctv.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/rcti.png",RCTI
+http://raw.githubusercontent.com/nmard/nmard.github.io/master/tvlink/favorite/rcti.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/rcti.png",RCTI (Backup1)
+http://raw.githubusercontent.com/nmard/nmard.github.io/master/tvlink/favorite/rcti1.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/gtv.png",GTV
+https://livetvhooq.akamaized.net/23cf552372cb459795ca683f9cc306d8/ap-southeast-1/5493668622001/profile_1/chunklist.m3u8?hdnts=st=1536005897~exp=9007200790746888~acl=/23cf552372cb459795ca683f9cc306d8/*/profile_1/chunklist.m3u8*~hmac=41e55cd90f1806ca59b56a1c266cc150ab4d70047b87019fc7db29c07c678d42
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/gtv.png",GTV (Backup1)
+http://id6.indostreamingtv.com/live/tv1/index.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/inews.png",iNEWS
+https://live.rctiplus.id/rctiplus/inews_720p.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/mnctv.png",MNC TV
+http://id6.indostreamingtv.com/live/mnctv/index.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/mnctv.png",MNC TV (Backup1)
+https://livetvhooq.akamaized.net/3127bcd58c9149b298b664b1ec828285/ap-southeast-1/5493668622001/profile_0/chunklist.m3u8?hdnts=st=1536005897~exp=9007200790746888~acl=/3127bcd58c9149b298b664b1ec828285/*/profile_0/chunklist.m3u8*~hmac=99928fa4d986fe186b165d47ed653d126327c06e772b228dbf2b4387beda9502
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/mnctv.png",MNC TV (Backup2)
+https://live.rctiplus.id/rctiplus/mnctv_720p.m3u8
+
+##EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/mncnews.png",MNC NEWS
+##https://cdn-livetv1.metube.id/hls/mncnews.m3u8
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/nettv.png",NET TV
+http://45.126.83.51/qwr9ew/s/s08/index.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/transtv.png",TRANS TV
+http://id2.indostreamingtv.com/live/tv33/index.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/transtv.png",TRANS TV (Backup1)
+http://video.detik.com/transtv/smil:transtv.smil/chunklist_w1982763047_b384000_sleng.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/transtv.png",TRANS TV (Backup2)
+https://livetvhooq.akamaized.net:443/d47264e2fe8f43848fb79b43915fb298/ap-southeast-1/5493668622001/profile_2/chunklist.m3u8?hdnts=st=1573597746~exp=9007200828338737~acl=/d47264e2fe8f43848fb79b43915fb298/*/profile_2/chunklist.m3u8*~hmac=f7affc9ab3c5d753e46be5cb9c59599ff9af1992dd034c161ae4831ee9f9bfa9
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/transtv.png",TRANS TV (Backup3)
+https://video.detik.com/transtv/smil:transtv.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/trans7.png",TRANS 7
+http://id2.indostreamingtv.com/live/trans7/index.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/trans7.png",TRANS 7 (Backup1)
+https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/trans7.png",TRANS 7 (Backup2)
+https://livetvhooq.akamaized.net:443/659beb5e22754dcb90ffd25247be6627/ap-southeast-1/5493668622001/profile_2/chunklist.m3u8?hdnts=st=1573597561~exp=9007200828338552~acl=/659beb5e22754dcb90ffd25247be6627/*/profile_2/chunklist.m3u8*~hmac=36e36a66dc72a44d109f8e5036284cc3f32f77eee042f8475362acd67ff40834
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/trans7.png",TRANS 7 (Backup3)
+http://video.detik.com/trans7/smil:trans7.smil/chunklist_w464718372_b384000_sleng.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/trans7.png",TRANS 7 (Backup4)
+https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/indosiar.png",INDOSIAR
+http://id1.indostreamingtv.com/live/indosiar/index.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/antv.png",ANTV
+http://id2.indostreamingtv.com/live/antv/index.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/tvone.png",TV ONE
+http://rr2.dens.tv/s/s02/index1.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="",O CHANNEL
+https://etslive-2-vidio-com.akamaized.net/exp=1583968195~acl=/hls-p/ingest_206_*/*~hmac=2918a89af4089b0ee81498146b0ff906bea97edaa0a1929fac03af5b8707e35f/hls-p/ingest_206_480p/index.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/metrotv.png",METRO TV
+http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/chunklist_w1088393745_b1128000_sleng.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/tvri.png",TVRI NASIONAL
+http://id1.indostreamingtv.com/live/tvri/index.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/tvri.png",TVRI K-3
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI3)/index.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/cnn.png",CNN INDONESIA
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1285822120_b384000_sleng.m3u8
+#http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8#
+#http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1361258734_b384000_sleng.m3u8#
+#http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w2069650134_b280000_sleng.m3u8#
+#http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8#
+
+
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/kompastv.png",KOMPAS TV
+https://stream-01.sg1.dailymotion.com/33/dm/3/x54ozbu/live-3.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/beritasatu.png",BERITA SATU
+http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsnew/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="",BERITA SATU (Backup1)
+http://edge.linknetott.swiftserve.com/live/BsNew/amlst:beritasatunewsbs/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040429.png" group-title="",BERITA SATU (Backup2)
+http://edge.linknetott.swiftserve.com/live/BsNew/amlst:beritasatunewsbs/chunklist_b846000.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/beritasatuworld.png",BERITA SATU WORLD
+http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsworld/playlist.m3u8
+
+#####
+#####
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/cnbc.png",CNBC Indo
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/cnbc.png",CNBC Indo (Backup1)
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
+
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/cnbc.png",CNBC Indo (Backup2)
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/cnbc.png",CNBC Indo (Backup3)
+http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w528900641_b384000_sleng.m3u8
+
+#####
+#####
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="" tvg-logo="" group-title="News",CNN
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
+
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/jakartaglobe.png",JAKARTA GLOBE
+http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsenglish/playlist.m3u8
+
+#EXTINF:-1 group-title="LOKAL" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="https://raw.githubusercontent.com/barusaha/barusaha.github.io/master/notvie/img/logo/theindonesia.png",THE INDONESIA
+http://202.93.133.3:1935/svr2/tic.com.stream_720p/chunklist_w752720676.m3u8
+
+
+#EXTINF:-1 group-title="ANAK-ANAK" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="http://www.vod-logo.net/photos/6a935ccbf26bb9180f9a06f2741d24c0.JPG",Disney Junior Indonesia
+http://103.47.132.164/PLTV/88888888/224/3221226011/04.m3u8
+
+
+#EXTINF:-1  group-title="MUSIK" tvg-id="" tvg-name="" tvg-language="Indonesian" tvg-logo="http://image.azuza.web.id/images/agus-1545452020.jpg",Dungdut TV
+http://edge.linknetott.swiftserve.com/live/BSgroup/amlst:dangdutch/playlist.m3u8
